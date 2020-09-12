@@ -1,0 +1,227 @@
+Small Nets(neuron form)
+mnist_fnn_tanh_20
+Overall Lipschitz Constant:37.428 Total time: 23.673 seconds
+Alpha:0.12254832 Beta:1.000000 (Largest_Output-Second_Large_Output)/sqrt(2):0.331286 Batch:0 No.:92 label:9 attack_label:4 Lipschitz Constant:37.404 Total time: 124.85 seconds
+R:0.008851288 R(box):0.008856967
+Alpha:0.10984264 Beta:0.997752 (Largest_Output-Second_Large_Output)/sqrt(2):2.146836 Batch:30 No.:60 label:7 attack_label:9 Lipschitz Constant:37.321 Total time: 113.34 seconds
+R:0.057359089 R(box):0.057523539
+Alpha:0.09629580 Beta:1.000000 (Largest_Output-Second_Large_Output)/sqrt(2):2.357343 Batch:31 No.:96 label:1 attack_label:7 Lipschitz Constant:37.407 Total time: 111.26 seconds
+R:0.062983408 R(box):0.063018767
+
+mnist_fnn_tanh_50
+Overall Lipschitz Constant:39.723 Total time: 44.717 seconds
+Alpha:0.05507058 Beta:0.997738 (Largest_Output-Second_Large_Output)/sqrt(2):3.638489 Batch:26 No.:50 label:8 attack_label:3 Lipschitz Constant:39.611 Total time: 258.42 seconds
+R:0.091596531 R(box):0.091855520
+Alpha:0.04656793 Beta:1.000000 (Largest_Output-Second_Large_Output)/sqrt(2):1.702234 Batch:1 No.:75 label:7 attack_label:3 Lipschitz Constant:39.704 Total time: 234.2 seconds
+R:0.042852604 R(box):0.042873111
+Alpha:0.01786996 Beta:1.000000 (Largest_Output-Second_Large_Output)/sqrt(2):3.290966 Batch:18 No.:62 label:4 attack_label:9 Lipschitz Constant:39.716 Total time: 245.32 seconds
+R:0.082847872 R(box):0.082862474
+
+mnist_fnn_tanh_30_20
+Overall Lipschitz Constant:89.664 Total time: 30.705 seconds
+Alpha:0.09603282 Beta:1.000000 (Largest_Output-Second_Large_Output)/sqrt(2):1.340641 Batch:30 No.:60 label:7 attack_label:9 Lipschitz Constant:89.440 Total time: 167.55 seconds
+R:0.014951831 R(box):0.014989278
+Alpha:0.08205106 Beta:1.000000 (Largest_Output-Second_Large_Output)/sqrt(2):0.188775 Batch:65 No.:76 label:7 attack_label:1 Lipschitz Constant:89.471 Total time: 154.29 seconds
+R:0.002105360 R(box):0.002109902
+Alpha:0.08146859 Beta:1.000000 (Largest_Output-Second_Large_Output)/sqrt(2):2.186917 Batch:65 No.:61 label:7 attack_label:9 Lipschitz Constant:89.472 Total time: 158.65 seconds
+R:0.024390134 R(box):0.024442474
+
+mnist_fnn_sigmoid_20
+Overall Lipschitz Constant:26.039 Total time: 22.013 seconds
+Alpha:0.04403091 Beta:0.250000 (Largest_Output-Second_Large_Output)/sqrt(2):0.154602 Batch:65 No.:77 label:7 attack_label:2 Lipschitz Constant:26.029 Total time: 105.93 seconds
+R:0.005937325 R(box):0.005939606
+Alpha:0.03362305 Beta:0.250000 (Largest_Output-Second_Large_Output)/sqrt(2):0.972328 Batch:96 No.:43 label:7 attack_label:1 Lipschitz Constant:26.032 Total time: 107.3 seconds
+R:0.037341219 R(box):0.037351260
+Alpha:0.03047390 Beta:0.247860 (Largest_Output-Second_Large_Output)/sqrt(2):1.236727 Batch:65 No.:76 label:7 attack_label:2 Lipschitz Constant:25.809 Total time: 103.01 seconds
+R:0.047495180 R(box):0.047918439
+
+mnist_fnn_sigmoid_50
+Overall Lipschitz Constant:24.636 Total time: 43.511 seconds
+Alpha:0.02585229 Beta:0.250000 (Largest_Output-Second_Large_Output)/sqrt(2):1.148904 Batch:66 No.:32 label:5 attack_label:9 Lipschitz Constant:24.625 Total time: 237.07 seconds
+R:0.046635168 R(box):0.046656000
+Alpha:0.01602834 Beta:0.250000 (Largest_Output-Second_Large_Output)/sqrt(2):1.755267 Batch:30 No.:60 label:7 attack_label:9 Lipschitz Constant:24.629 Total time: 238.82 seconds
+R:0.071248052 R(box):0.071268302
+Alpha:0.01362412 Beta:0.249410 (Largest_Output-Second_Large_Output)/sqrt(2):2.479110 Batch:25 No.:32 label:6 attack_label:5 Lipschitz Constant:24.572 Total time: 223.32 seconds
+R:0.100629566 R(box):0.100891665
+
+mnist_fnn_sigmoid_30_20
+Overall Lipschitz Constant:63.695 Total time: 30.716 seconds
+Alpha:0.01797225 Beta:0.250000 (Largest_Output-Second_Large_Output)/sqrt(2):0.157030 Batch:66 No.:32 label:9 attack_label:5 Lipschitz Constant:63.564 Total time: 152.48 seconds
+R:0.002465343 R(box):0.002470424
+Alpha:0.01667418 Beta:0.250000 (Largest_Output-Second_Large_Output)/sqrt(2):2.780191 Batch:31 No.:96 label:1 attack_label:2 Lipschitz Constant:63.573 Total time: 155.08 seconds
+R:0.043648497 R(box):0.043732261
+Alpha:0.01584510 Beta:0.250000 (Largest_Output-Second_Large_Output)/sqrt(2):3.160361 Batch:2 No.:24 label:1 attack_label:2 Lipschitz Constant:63.578 Total time: 157.57 seconds
+R:0.049617097 R(box):0.049708405
+
+Large Nets
+mnist_fnn_relu_1000x7(split 1,network)
+Lipschitz Constant:460310492.839 Total time: 7.3674 seconds
+
+mnist_fnn_relu_500x14
+Lipschitz Constant:24511721076672.359 Total time: 6.185 seconds (split 1,network)
+Lipschitz Constant:5002613458810.160 Total time: 261.57 seconds (split 2,layer,4 workers)
+
+caffeprototxt_AI2_MNIST_FNN_7_testNetworkB(layer)
+Lipschitz Constant:240.987 Total time: 608.13 seconds
+
+caffeprototxt_AI2_MNIST_CNN_1_testNetworkB(subnets)
+0caffeprototxt_AI2_MNIST_CNN_1_testNetworkB Lipschitz Constant:41.020 Total time: 39.13 seconds (network,split 1)
+1caffeprototxt_AI2_MNIST_CNN_1_testNetworkB Lipschitz Constant:11.259 Total time: 7.0061 seconds (network,split 1)
+2caffeprototxt_AI2_MNIST_CNN_1_testNetworkB Lipschitz Constant:1.532 Total time: 10.608 seconds (neuron)
+Overall Lipschitz Constant:707.545
+
+
+SDP Deepsymbol Compare
+caffeprototxt_AI2_MNIST_FNN_1_testNetworkB
+Lipschitz Constant:23.928
+0.in label7:11.4606 label3:2.67121 r_linfball:0.037 r_sdp_linf:0.020
+1.in label1:8.69501 label7:1.84352 r_linfball:0.018 r_sdp_linf:0.016
+2.in label7:13.8015 label3:6.10867 r_linfball:0.031 r_sdp_linf:0.018
+
+caffeprototxt_AI2_MNIST_FNN_7_testNetworkB
+Lipschitz Constant:240.987
+0.in label7:13.347 label9:2.82341 r_linfball:0.007 r_sdp_linf:0.0024
+1.in label1:10.593 label7:3.59032 r_linfball:0.004 r_sdp_linf:0.0016
+2.in label7:13.8528 label1:3.32002 r_linfball:0.008 r_sdp_linf:0.0024
+
+Batch
+Tanh_20:
+Lip time: 23.673 seconds
+Verify time:2.78 seconds
+Total time:26.453 seconds
+{11: 1104, 8: 1021, 12: 964, 9: 1115, 6: 660, 7: 868, 2: 317, 10: 1171, 5: 595, 13: 608, 1: 366, 14: 250, 4: 450, 3: 369, 15: 100, 17: 6, 16: 36}
+The percentage of r over  0.0 is 100.0 %
+The percentage of r over  0.001 is 96.34 %
+The percentage of r over  0.002 is 93.17 %
+The percentage of r over  0.003 is 89.48 %
+The percentage of r over  0.004 is 84.98 %
+The percentage of r over  0.005 is 79.03 %
+The percentage of r over  0.006 is 72.43 %
+The percentage of r over  0.007 is 63.75 %
+The percentage of r over  0.008 is 53.54 %
+The percentage of r over  0.009 is 42.39000000000001 %
+The percentage of r over  0.01 is 30.679999999999993 %
+The percentage of r over  0.011 is 19.64 %
+The percentage of r over  0.012 is 10.0 %
+The percentage of r over  0.013 is 3.9200000000000017 %
+The percentage of r over  0.014 is 1.4200000000000017 %
+The percentage of r over  0.015 is 0.4200000000000017 %
+The percentage of r over  0.016 is 0.060000000000002274 %
+The percentage of r over  0.017 is 0.0 %
+
+Tanh_50:
+Lip time:44.717 seconds
+Verify time:14.48 seconds
+Total time:59.197 seconds
+{12: 967, 8: 879, 9: 1032, 10: 1041, 4: 366, 7: 704, 14: 596, 15: 377, 5: 404, 11: 1145, 6: 559, 16: 201, 13: 814, 2: 272, 1: 254, 17: 80, 3: 266, 19: 14, 18: 24, 20: 4, 21: 1}
+The percentage of r over  0.0 is 100.0 %
+The percentage of r over  0.001 is 97.46 %
+The percentage of r over  0.002 is 94.74 %
+The percentage of r over  0.003 is 92.08 %
+The percentage of r over  0.004 is 88.42 %
+The percentage of r over  0.005 is 84.38 %
+The percentage of r over  0.006 is 78.78999999999999 %
+The percentage of r over  0.007 is 71.75 %
+The percentage of r over  0.008 is 62.96 %
+The percentage of r over  0.009 is 52.64 %
+The percentage of r over  0.01 is 42.230000000000004 %
+The percentage of r over  0.011 is 30.78 %
+The percentage of r over  0.012 is 21.11 %
+The percentage of r over  0.013 is 12.969999999999999 %
+The percentage of r over  0.014 is 7.010000000000005 %
+The percentage of r over  0.015 is 3.239999999999995 %
+The percentage of r over  0.016 is 1.230000000000004 %
+The percentage of r over  0.017 is 0.4299999999999926 %
+The percentage of r over  0.018 is 0.18999999999999773 %
+The percentage of r over  0.019 is 0.04999999999999716 %
+The percentage of r over  0.02 is 0.010000000000005116 %
+The percentage of r over  0.021 is 0.0 %
+
+Tanh_30_20:
+Lip time:30.705 seconds
+Verify time:3.76 seconds
+Total time:34.465 seconds
+{{6: 2627, 4: 1827, 3: 1025, 5: 2892, 2: 678, 8: 16, 7: 395, 1: 540}
+The percentage of r over  0.0 is 100.0 %
+The percentage of r over  0.001 is 94.6 %
+The percentage of r over  0.002 is 87.82 %
+The percentage of r over  0.003 is 77.57 %
+The percentage of r over  0.004 is 59.300000000000004 %
+The percentage of r over  0.005 is 30.379999999999995 %
+The percentage of r over  0.006 is 4.109999999999999 %
+The percentage of r over  0.007 is 0.1600000000000108 %
+The percentage of r over  0.008 is 0.0 %
+
+Sigmoid_20:
+Lip time: 22.013 seconds
+Verify time: 2.86 seconds
+Total time:24.873 seconds
+{14: 754, 8: 646, 12: 1126, 9: 738, 13: 1113, 11: 1060, 2: 316, 6: 499, 10: 904, 15: 413, 7: 541, 1: 305, 16: 266, 4: 342, 5: 410, 17: 151, 3: 335, 18: 57, 19: 14, 21: 1, 20: 9}
+The percentage of r over  0.0 is 100.0 %
+The percentage of r over  0.001 is 96.95 %
+The percentage of r over  0.002 is 93.79 %
+The percentage of r over  0.003 is 90.44 %
+The percentage of r over  0.004 is 87.02 %
+The percentage of r over  0.005 is 82.92 %
+The percentage of r over  0.006 is 77.93 %
+The percentage of r over  0.007 is 72.52 %
+The percentage of r over  0.008 is 66.06 %
+The percentage of r over  0.009 is 58.68 %
+The percentage of r over  0.01 is 49.63999999999999 %
+The percentage of r over  0.011 is 39.04 %
+The percentage of r over  0.012 is 27.78 %
+The percentage of r over  0.013 is 16.64999999999999 %
+The percentage of r over  0.014 is 9.11 %
+The percentage of r over  0.015 is 4.97999999999999 %
+The percentage of r over  0.016 is 2.319999999999993 %
+The percentage of r over  0.017 is 0.8100000000000023 %
+The percentage of r over  0.018 is 0.23999999999999488 %
+The percentage of r over  0.019 is 0.09999999999999432 %
+The percentage of r over  0.02 is 0.010000000000005116 %
+The percentage of r over  0.021 is 0.0 %
+
+Sigmoid_50:
+Lip time: 43.511 seconds
+Verify time:14.48 seconds
+Total time:57.991 seconds
+{16: 841, 14: 917, 15: 866, 11: 635, 13: 855, 9: 496, 8: 434, 12: 769, 20: 178, 6: 301, 17: 724, 18: 506, 7: 332, 3: 202, 10: 587, 4: 259, 19: 313, 21: 80, 1: 194, 5: 263, 23: 11, 22: 32, 2: 198, 25: 2, 24: 5}
+The percentage of r over  0.0 is 100.0 %
+The percentage of r over  0.001 is 98.06 %
+The percentage of r over  0.002 is 96.08 %
+The percentage of r over  0.003 is 94.06 %
+The percentage of r over  0.004 is 91.47 %
+The percentage of r over  0.005 is 88.84 %
+The percentage of r over  0.006 is 85.83 %
+The percentage of r over  0.007 is 82.51 %
+The percentage of r over  0.008 is 78.17 %
+The percentage of r over  0.009 is 73.21 %
+The percentage of r over  0.01 is 67.34 %
+The percentage of r over  0.011 is 60.99 %
+The percentage of r over  0.012 is 53.3 %
+The percentage of r over  0.013 is 44.75 %
+The percentage of r over  0.014 is 35.58 %
+The percentage of r over  0.015 is 26.92 %
+The percentage of r over  0.016 is 18.510000000000005 %
+The percentage of r over  0.017 is 11.269999999999996 %
+The percentage of r over  0.018 is 6.210000000000008 %
+The percentage of r over  0.019 is 3.0799999999999983 %
+The percentage of r over  0.02 is 1.2999999999999972 %
+The percentage of r over  0.021 is 0.5 %
+The percentage of r over  0.022 is 0.18000000000000682 %
+The percentage of r over  0.023 is 0.07000000000000739 %
+The percentage of r over  0.024 is 0.01999999999999602 %
+The percentage of r over  0.025 is 0.0 %
+
+Sigmoid_30_20:
+Lip time: 30.716 seconds
+Verify time:3.61 seconds
+Total time:34.326 seconds
+{6: 2871, 4: 1623, 5: 3035, 3: 978, 1: 541, 7: 327, 2: 625}
+The percentage of r over  0.0 is 100.0 %
+The percentage of r over  0.001 is 94.59 %
+The percentage of r over  0.002 is 88.34 %
+The percentage of r over  0.003 is 78.56 %
+The percentage of r over  0.004 is 62.330000000000005 %
+The percentage of r over  0.005 is 31.980000000000004 %
+The percentage of r over  0.006 is 3.269999999999996 %
+The percentage of r over  0.007 is 0.0 %
