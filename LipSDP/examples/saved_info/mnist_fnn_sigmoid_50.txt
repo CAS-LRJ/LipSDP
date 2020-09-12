@@ -1,0 +1,3 @@
+Alpha:0.02585229 Beta:0.250000 (Largest_Output-Second_Large_Output)/sqrt(2):1.148904 Batch:66 No.:32 label:5 attack_label:9
+Alpha:0.01602834 Beta:0.250000 (Largest_Output-Second_Large_Output)/sqrt(2):1.755267 Batch:30 No.:60 label:7 attack_label:9
+Alpha:0.01362412 Beta:0.249410 (Largest_Output-Second_Large_Output)/sqrt(2):2.479110 Batch:25 No.:32 label:6 attack_label:5
